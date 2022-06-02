@@ -1,22 +1,38 @@
-# Learning Neo4j
+# Introduction to Neo4j
 This is the repository for the LinkedIn Learning course `Learning Neo4j`. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
 ## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+All instructions and commands used in this course are available in this repository for easy copy-paste access, along with the course dataset and load script. You do not require a copy of this repository or any content within it.
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
+## Supporting course content
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+### 2. Getting started
+* [Hello, world!][02_03]
+* [Chapter solution][02_06]
 
+### 3. Reading data
+* [Introducing the course dataset][03_01]
+* [MATCHing your data][03_02]
+* [Counting and aggregating data][03_03]
+* [Beyond one hop][03_04]
+* [Chapter solution][03_06]
+
+### 4. Writing data
+* [CREATEing and updating your data][04_01]
+* [REMOVEing and DELETEing your data][04_02]
+* [Chapter solution][04_04]
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/
 [lil-thumbnail-url]: http://
+[02_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/02_03.txt
+[02_06]:https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/02_06.txt
+[03_01]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_01.txt
+[03_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_02.txt
+[03_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_03.txt
+[03_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_04.txt
+[03_06]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_06.txt
+[04_01]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_01.txt
+[04_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_02.txt
+[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_04.txt
