@@ -7,7 +7,7 @@ All instructions and commands used in this course are available in this reposito
 ## Supporting course content
 
 ### The Roux Academy data model
-[Data model](datamodel.png)
+![Data model](datamodel.png)
 
 ### 2. Getting started
 * [Hello, world!][02_03]
