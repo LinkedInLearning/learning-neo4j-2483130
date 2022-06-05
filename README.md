@@ -37,9 +37,9 @@ All instructions and commands used in this course are available in this reposito
 [03_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_02.txt
 [03_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_03.txt
 [03_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_04.txt
-[03_06]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_05.txt
+[03_05]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_05.txt
 [03_07]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_07.txt
 [04_01]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_01.txt
 [04_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_02.txt
-[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_03.txt
-[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_05.txt
+[04_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_03.txt
+[04_05]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_05.txt
