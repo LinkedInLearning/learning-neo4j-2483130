@@ -6,21 +6,26 @@ All instructions and commands used in this course are available in this reposito
 
 ## Supporting course content
 
+### The Roux Academy data model
+[Data model](datamodel.png)
+
 ### 2. Getting started
 * [Hello, world!][02_03]
 * [Chapter solution][02_06]
 
 ### 3. Reading data
 * [Introducing the course dataset][03_01]
-* [MATCHing your data][03_02]
-* [Counting and aggregating data][03_03]
-* [Beyond one hop][03_04]
-* [Chapter solution][03_06]
+* [MATCHing nodes][03_02]
+* [MATCHing nodes and relationships][03_03]
+* [Counting and aggregating data][03_04]
+* [Beyond one hop][03_05]
+* [Chapter solution][03_07]
 
 ### 4. Writing data
-* [CREATEing and updating your data][04_01]
-* [REMOVEing and DELETEing your data][04_02]
-* [Chapter solution][04_04]
+* [CREATEing your data][04_01]
+* [Updating and REMOVEing your data][04_02]
+* [DELETEing your data][04_03]
+* [Chapter solution][04_05]
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
@@ -32,7 +37,9 @@ All instructions and commands used in this course are available in this reposito
 [03_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_02.txt
 [03_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_03.txt
 [03_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_04.txt
-[03_06]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_06.txt
+[03_06]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_05.txt
+[03_07]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/03_07.txt
 [04_01]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_01.txt
 [04_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_02.txt
-[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_04.txt
+[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_03.txt
+[04_04]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_05.txt
