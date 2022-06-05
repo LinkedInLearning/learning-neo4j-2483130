@@ -1,0 +1,30 @@
+CREATE (:Learner {name:'Lju'})-[:KNOWS {since:20210101}]->(alia:Learner {name:'Alia'})
+CREATE (:Learner {name:'Jo'})-[:KNOWS]->(:Learner {name:'Su'})
+
+//DELETE everything
+//MATCH (n) 
+//DETACH DELETE n
+
+//DELETE just the Lju node
+MATCH (l:Learner {name:'Lju'})
+DETACH DELETE l
+
+//DELETE the relationship between Jo and Su
+MATCH (:Learner {name:'Jo'})-[r:KNOWS]->(:Learner {name:'Su'})
+DELETE r
+
+//DELETE all the learner nodoes
+MATCH (l:Learner)
+DETACH DELETE l
+
+//Create the Jo and Su nodes and relationship
+CREATE (:Learner {name:'Jo'})-[:KNOWS]->(:Learner {name:'Su'})
+
+//Update the KNOWS relationship to a FRIEND relationship
+MATCH (l1:Learner {name:'Jo'})-[r:KNOWS]->(l2:Learner {name:'Su'})
+CREATE (l1)-[:FRIEND]->(l2) //create the new relationship
+DELETE r //remove the old one
+
+//Have a look at the new relationship type
+MATCH (l1:Learner {name:'Jo'})-[r]->(l2:Learner {name:'Su'})
+RETURN *

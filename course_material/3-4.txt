@@ -1,0 +1,28 @@
+//How many students studied abroad?
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(c:Country)
+RETURN count(s) AS `Students Abroad`
+
+//Find and collect all students with firstname Alia or Colleen who studied abroad and in which country
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(c:Country)
+WHERE s.first = 'Alia' OR s.first = 'Colleen'
+RETURN collect(s.first + ' ' + s.last) AS Name, c.name AS Country
+
+//Find how many students who studied abroad per country
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(c:Country)
+WITH collect(s) AS students, c
+RETURN size(students) AS `Number of Students`, c.name AS Country
+
+//RETURN 10 students in ascending alphabetical order on first name
+MATCH (s:Student)
+RETURN s.first, s.last ORDER BY s.first LIMIT 10
+
+//Find how many students who studied abroad per country, ordered from highest to lowest
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(c:Country)
+WITH collect(s) AS students, c
+RETURN size(students) AS Students, c.name AS Country ORDER BY Students DESC
+
+//WITH and WHERE example
+//Find countries where at least 150 students studied there
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(c:Country)
+WITH collect(s) AS students, c WHERE size(students) >= 150
+RETURN size(students) AS `Number of Students`, c.name AS Country

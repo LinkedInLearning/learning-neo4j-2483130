@@ -1,0 +1,24 @@
+//Return all students with the first name Alia who've studied abroad
+MATCH (s:Student {first:'Alia'})--(c:Country)
+RETURN *
+
+//Return all students with the first name Alia who have studied abroad 
+//This query should be faster when we use a relationship type and direction!
+MATCH (s:Student {first:'Alia'})-[:STUDIED_ABROAD_IN]->(c:Country)
+RETURN *
+
+//Return all students with a GPA above 3.98
+MATCH (s:Student)-[r:OBTAINED]->()
+WHERE r.gpa >3.98
+RETURN s.first, s.last, r.gpa
+
+//Return all students with firstname Alia with a GPA above 3.0
+MATCH (s:Student)-[r:OBTAINED]->()
+WHERE r.gpa >3.0 AND s.first = 'Alia'
+RETURN s.first, s.last, r.gpa
+
+//Return all students with firstname Alia with a GPA above 3.0
+//We can change our references using AS
+MATCH (s:Student)-[r:OBTAINED]->()
+WHERE r.gpa >3.0 AND s.first = 'Alia'
+RETURN s.first AS Name, s.last AS `Family Name`, r.gpa AS GPA
