@@ -1,0 +1,22 @@
+//Find all students who studied abroad in Greece in 2011
+MATCH (s:Student)-[:STUDIED_ABROAD_IN]->(:Country {name:"Greece"}),
+      (s)-[:GRADUATED_IN]->(:Year {value:2011})
+RETURN s.first, s.last
+
+//Find all students who studied abroad in Greece in 2011
+MATCH (:Year {value:2011})<-[:GRADUATED_IN]-(s:Student)-[:STUDIED_ABROAD_IN]->(:Country {name:"Greece"})
+RETURN s.first, s.last
+
+//Find all students that are 2 hops away from student Ardella Eaton
+MATCH (s1:Student {first:"Ardella", last:"Eaton"})-[*0..2]-(s2:Student)
+RETURN DISTINCT s2.first, s2.last
+
+//Find all students that are 2 hops away from student Ardella Eaton based on program they're on
+MATCH (s1:Student {first:"Ardella", last:"Eaton"})-[:STUDIED *0..2]-(s2:Student)
+RETURN s2.first, s2.last
+
+//Find the shortest path between Ardella Eaton and Christiana Boone
+MATCH (s1:Student {first:'Ardella', last:'Eaton'}),
+      (s2:Student {first:'Christiana', last:'Boone'}),
+      p=shortestpath((s1)-[*]-(s2)) //p is a path consisting of nodes and relationships
+RETURN p

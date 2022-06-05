@@ -1,0 +1,8 @@
+//You, a learner with name <your name>, says greeting with message 'Nice to meet you!'
+CREATE (learner:Learner {name:'Lju'})-[:SAYS]->(greeting:Greeting {message:'Nice to meet you!'})
+
+//Find all the learners
+MATCH (learner:Learner)
+RETURN learner
+
+
