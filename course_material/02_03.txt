@@ -1,0 +1,12 @@
+//You, a Learner, SAYS Greeting with message 'Hello, World!'
+CREATE (learner:Learner {name:'Lju'}),
+       (hello:Greeting {message:'Hello, World!'}),
+       (learner)-[r:SAYS]->(hello)
+      
+//Return the learner
+MATCH (me:Learner)
+RETURN me
+
+//Return the whole pattern
+MATCH (learner:Learner)-[rel]-(greeting:Greeting)
+RETURN *
