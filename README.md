@@ -1,5 +1,5 @@
 # Introduction to Neo4j
-This is the repository for the LinkedIn Learning course `Learning Neo4j`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course `Introduction to Neo4j`. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ## Instructions
 All instructions and commands used in this course are available in this repository for easy copy-paste access, along with the course dataset and load script. You do not require a copy of this repository or any content within it.
