@@ -1,8 +1,6 @@
 # Introduction to Neo4j
 This is the repository for the LinkedIn Learning course Introduction to Neo4j. The full course is available from [LinkedIn Learning][lil-course-url].
 
-![Introduction to Neo4j][lil-thumbnail-url] 
-
 Data is at the core of almost everything we do in the modern world, and at this point in the evolution of data, it’s not just the raw data that’s important, it’s also how different data is connected, and why. While common databases like relational databases and document databases sometimes struggle to illustrate the deep connections of data, graph databases are designed precisely for understanding these relationships, and treat the connections between data as important as the data itself. In this course, Ljubica Lazarevic teaches you what exactly graph databases are, why they’re so powerful, and when to use them. She provides interactive, hands-on lessons using Neo4j, a leading graph database management system. If you’re trying to figure out a connected data problem, looking to understand how to spot one, or just want to learn about graph databases, check out this course.
 
 ## Instructions
