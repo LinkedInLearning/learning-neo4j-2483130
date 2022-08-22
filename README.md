@@ -1,5 +1,9 @@
 # Introduction to Neo4j
-This is the repository for the LinkedIn Learning course `Introduction to Neo4j`. The full course is available from [LinkedIn Learning][lil-course-url].
+This is the repository for the LinkedIn Learning course Introduction to Neo4j. The full course is available from [LinkedIn Learning][lil-course-url].
+
+![Introduction to Neo4j][lil-thumbnail-url] 
+
+Data is at the core of almost everything we do in the modern world, and at this point in the evolution of data, it’s not just the raw data that’s important, it’s also how different data is connected, and why. While common databases like relational databases and document databases sometimes struggle to illustrate the deep connections of data, graph databases are designed precisely for understanding these relationships, and treat the connections between data as important as the data itself. In this course, Ljubica Lazarevic teaches you what exactly graph databases are, why they’re so powerful, and when to use them. She provides interactive, hands-on lessons using Neo4j, a leading graph database management system. If you’re trying to figure out a connected data problem, looking to understand how to spot one, or just want to learn about graph databases, check out this course.
 
 ## Instructions
 All instructions and commands used in this course are available in this repository for easy copy-paste access, along with the course dataset and load script. You do not require a copy of this repository or any content within it.
@@ -43,3 +47,14 @@ All instructions and commands used in this course are available in this reposito
 [04_02]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_02.txt
 [04_03]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_03.txt
 [04_05]: https://raw.githubusercontent.com/LinkedInLearning/learning-neo4j-2483130/main/course_material/04_05.txt
+
+### Instructor
+
+Ljubica Lazarevic 
+                                                       
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ljubica-lazarevic).
+
+[lil-course-url]: https://www.linkedin.com/learning/introduction-to-neo4j
+[lil-thumbnail-url]: https://cdn.lynda.com/course/2483130/2483130-1660756607263-16x9.jpg
+
