@@ -2,11 +2,11 @@
 MATCH (n) DETACH DELETE n;
 
 //Add constraints
-CREATE CONSTRAINT IF NOT EXISTS ON (student:Student) ASSERT student.id IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS ON (state:State) ASSERT state.name IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS ON (gradYear:Year) ASSERT gradYear.value IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS ON (program:Program) ASSERT program.name IS UNIQUE;
-CREATE CONSTRAINT IF NOT EXISTS ON (country:Country) ASSERT country.name IS UNIQUE;
+CREATE CONSTRAINT IF NOT EXISTS FOR (student:Student) REQUIRE student.id IS UNIQUE; 
+CREATE CONSTRAINT IF NOT EXISTS FOR (state:State) REQUIRE state.name IS UNIQUE; 
+CREATE CONSTRAINT IF NOT EXISTS FOR (gradYear:Year) REQUIRE gradYear.value IS UNIQUE; 
+CREATE CONSTRAINT IF NOT EXISTS FOR (program:Program) REQUIRE program.name IS UNIQUE; 
+CREATE CONSTRAINT IF NOT EXISTS FOR (country:Country) REQUIRE country.name IS UNIQUE;
 
 //Load data. We will use several statements to minimise eager queries and flat file downloads. 
 //Note that this may not be how you'd typically do this!
