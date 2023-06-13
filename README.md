@@ -53,6 +53,6 @@ Ljubica Lazarevic
 
 Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ljubica-lazarevic).
 
-[lil-course-url]: https://www.linkedin.com/learning/introduction-to-neo4j
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2483130/2483130-1660756607263-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/introduction-to-neo4j?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/C560DAQHW5qTGHHzVxQ/learning-public-crop_288_512/0/1660756613039?e=2147483647&v=beta&t=sNiVhd-EFHEARVcBVkxR4YWWDZAg9Vn6kqoHGujMVGI
 
